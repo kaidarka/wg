@@ -129,7 +129,7 @@ h2 {
 
 .more {
   position: relative;
-  top: 320px;
+  top: 319px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,5 +242,43 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   color: #fff;
+}
+
+@media screen and (max-width: 977px) {
+  .about {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about__container {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .more {
+    top: 220px;
+  }
+  .more__block {
+    width: 350px;
+  }
+  .more__img {
+    position: absolute;
+    right: 40px;
+  }
+  .map {
+    margin-top: 220px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .info__block {
+    width: 400px;
+  }
+  .info__img {
+    left: -220px;
+  }
+  .more__block {
+    width: 250px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
